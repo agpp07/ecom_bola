@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font style */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #ff523b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the h1 and p inside the header */
+.header-content h1 {
+    margin-bottom: 10px;
+}
+
+/* Style the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Update the CSS for the form buttons in the button container */
+.button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Adjust padding for a larger button */
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 8px; /* Add border-radius for a rounded button */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Change button color on hover */
+.button:hover {
+    background-color: #27ae60;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Make the footer text smaller */
+footer p {
+    font-size: 12px;
+}
+
+/* Add this CSS to style the logout button */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    background-color: #f38f83;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #565353;
+}
+
+/* Additional CSS for the specific large buttons */
+.large-button {
+    padding: 20px 40px; /* Adjust padding for larger buttons */
+}
