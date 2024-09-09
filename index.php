@@ -16,7 +16,7 @@
                 <h2>Login</h2>
                 <div class="input-group">
                     <input type="text" name="username" required>
-                    <label for="">Username</label>
+                    <label for="">username</label>
                 </div>
                 <div class="input-group">
                     <input type="password" name="password" required>
