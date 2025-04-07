@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $quantity = $quantities[$i];
 
         // Menggunakan prepared statement untuk menghindari SQL Injection
-        $stmt = $coneksi->prepare("INSERT INTO cart (product_name, product_price, quantity) VALUES (?, ?, ?)");
+        $stmt = $coneksi->prepare("INSERT INTO carts (product_name, product_price, quantity) VALUES (?, ?, ?)");
         $stmt->bind_param("sdi", $product_name, $product_price, $quantity);
 
         if ($stmt->execute()) {
