@@ -32,7 +32,7 @@ $result = mysqli_query($coneksi, "SELECT * FROM login_akun ORDER BY id DESC");
     border-radius: 30px;
 }
 
-<style>table {
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -74,7 +74,7 @@ a:hover {
 }
 </style>
 
-</style>
+</styltable>
 
 <body>
     <div class="button-container">
