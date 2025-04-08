@@ -24,9 +24,6 @@
         <form action="akun.php" method="post">
             <input type="submit" class="button large-button" value="Daftar Akun">
         </form>
-        <form action="contact.php" method="post">
-            <input type="submit" class="button large-button" value="Daftar Contact">
-        </form>
         <form action="payment.php" method="post">
             <input type="submit" class="button large-button" value="Daftar Payment">
         </form>
